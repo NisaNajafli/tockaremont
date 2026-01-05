@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assests/css/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="/assests/css/style.css">
     <link rel="shortcut icon" href="/assests/img/icon.webp" type="image/x-icon">
     <title>Точка Ремонт</title>
@@ -213,12 +214,6 @@
                         </div>
                         <div>
                             <svg
-                             xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 346.4 346.4" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M281.91 0c-29.6 0-53.6 24-53.6 53.6V82h-127.2V53.6c0-21.6 17.6-39.2 39.2-39.2s39.2 17.6 39.2 39.2c0 4 3.2 7.2 7.2 7.2s7.2-3.2 7.2-7.2c0-29.6-24-53.6-53.6-53.6s-53.6 24-53.6 53.6v182c-.4 4 3.2 7.6 7.2 7.6s7.2-3.2 7.2-7.2v-18h127.6v18c0 4 3.2 7.2 7.2 7.2s7.2-3.2 7.2-7.2V53.6c0-21.6 17.6-39.2 39.2-39.2s38.8 17.6 38.8 39.2c0 4 3.2 7.2 7.2 7.2s7.2-3.2 7.2-7.2c0-29.6-24-53.6-53.6-53.6zm-53.2 202.8h-127.6v-25.6h127.6v25.6zm0-40h-127.6v-25.6h127.6v25.6zm0-40.8h-127.6V96.4h127.6V122zM317.51 271.2c-1.6-3.6-6-5.6-9.6-3.6-36 15.6-53.6 8-72.4 0-19.2-8-38.8-16.4-73.6 0-36 15.6-53.6 8-72.4 0-19.2-8-39.2-16.4-74 0-3.6 1.6-5.2 6-3.6 9.6 1.6 3.6 6 5.2 9.6 3.6 29.2-13.6 44.4-7.2 62 .4 11.6 4.8 24 10 40.4 10 12 0 26-2.8 43.6-10.4 29.2-13.6 44.4-7.2 62 .4 11.6 4.8 24 10 40.4 10 12 0 26-2.8 43.6-10.4 3.6-1.6 5.6-6 4-9.6zM317.11 326.4c-1.6-3.6-6-5.6-9.6-3.6-36 15.6-53.6 8-72.4 0-19.2-8-38.8-16.4-73.6 0-36 15.6-53.6 8-72.4 0-19.2-8-38.8-16.4-74 0-3.6 1.6-5.2 6-3.6 9.6 2 3.6 6.4 5.2 10 3.6 29.2-13.6 44.4-7.2 62 .4 11.6 4.8 24 10 40.4 10 12 0 26-2.8 43.6-10.4 29.2-13.6 44.4-7.2 62 .4 11.6 4.8 24 10 40.4 10 12 0 26-2.8 43.6-10.4 3.6-1.6 5.6-6 3.6-9.6z" fill="currentColor" opacity="1" data-original="#000000"></path></g>
-                            </svg>
-                            Строительство бассейнов
-                        </div>
-                        <div>
-                            <svg
                              xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M16 1a15 15 0 1 0 15 15A15 15 0 0 0 16 1zm0 28a13 13 0 1 1 13-13 13 13 0 0 1-13 13zm-4-17.5a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5zm11 0a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5zm-1.34 8.74a1 1 0 0 1 0 1.42 8 8 0 0 1-11.32 0 1 1 0 0 1 1.42-1.42 6 6 0 0 0 8.48 0 1 1 0 0 1 1.42 0z" data-name="90-project management" fill="currentColor" opacity="1" data-original="#000000"></path></g>
                             </svg>
                             Комфортабельный дом
@@ -228,79 +223,682 @@
             </div>
         </section>
         <section class="about">
-  <div class="container">
-    <div class="container about__grid">
+            <div class="container">
+                <div class="container about__grid">
 
-    <div class="about__left">
-      <div class="section__title">О компании</div>
-      <div class="about__image">
-        <img src="/assests/img/about.webp" alt="">
-      </div>
-    </div>
+                <div class="about__left">
+                <div class="section__title">О компании</div>
+                <div class="about__image">
+                    <img src="/assests/img/about.webp" alt="">
+                </div>
+                </div>
 
-    <div class="about__right">
+                <div class="about__right">
 
-      <div class="about__card">
-        <div class="about__value">90%</div>
-        <div class="about__desc">
-          Наших клиентов приходят по рекомендации. Нас советуют друзьям и коллегам за честные и прозрачные сметы,
-          строгое соблюдение сроков и безупречное качество выполнения работ.
+                <div class="about__card">
+                    <div class="about__value">90%</div>
+                    <div class="about__desc">
+                    Наших клиентов приходят по рекомендации. Нас советуют друзьям и коллегам за честные и прозрачные сметы,
+                    строгое соблюдение сроков и безупречное качество выполнения работ.
+                    </div>
+                </div>
+
+                <div class="about__card">
+                    <div class="about__value">250<span>+</span></div>
+                    <div class="about__title">проектов</div>
+                    <div class="about__desc">
+                    Квартиры, пентхаусы и таунхаусы в Москве и области. Наш опыт подтверждён реальными отзывами клиентов.
+                    </div>
+                </div>
+
+                <div class="about__card">
+                    <div class="about__value">с 2015</div>
+                    <div class="about__desc">
+                    Создаём эксклюзивные интерьеры и сопровождаем проект на всех этапах — от замысла до финального клининга.
+                    </div>
+                </div>
+
+                <div class="about__card">
+                    <div class="about__title">Узнай больше о нашей команде</div>
+                    <div class="about__desc">
+                    Мы объединяем профессионализм, ответственность и системный подход, чтобы каждый проект соответствовал высоким стандартам качества.
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <a href="/" class="button_link w-inline-block">
+              Подробно
+            <div class="button">
+                <div class="button_icon is-larger">
+                <div class="button_arrow-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+                </div>
+
+                <div class="circle-loader"></div>
+                </div>
+            </div>
+            </a>
+            </div>
+            
+        </section>
+        <section class="services">
+          <div class="container">
+            <div class="section__top">
+              <h2 class="section__title">Услуги</h2>
+              <a href="/" class="button_link w-inline-block">
+                Подробно
+            <div class="button">
+                <div class="button_icon is-larger">
+                <div class="button_arrow-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+                </div>
+
+                <div class="circle-loader"></div>
+                </div>
+            </div>
+            </a>
+            </div>
+            <div class=" swiper services__slider">
+              <div class="swiper-wrapper">
+
+                <a class="swiper-slide service-card">
+                  <img src="https://static.tildacdn.com/tild6163-3337-4131-b239-653762646561/a-professional-demol.jpg" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Демонтажные работы</h3>
+                    <p class="service-card__desc">
+                      Профессиональный демонтаж конструкций любой сложности с соблюдением норм безопасности.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://avatars.mds.yandex.net/get-ydo/5575550/2a00000181d2b58426cb18ff0e25c24cc7e6/diploma" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Капитальный ремонт квартир</h3>
+                    <p class="service-card__desc">
+                      Полный цикл капитального ремонта с заменой всех инженерных систем.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://domeo.ru/wp-content/uploads/2025/02/c4ca4238a0b923820dcc509a6f75849b-9.jpg" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Частичный ремонт квартир</h3>
+                    <p class="service-card__desc">
+                      Обновление отдельных зон без полного вмешательства в планировку.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://avatars.mds.yandex.net/get-ydo/3912055/2a0000018d8dba9580223b9721cffbe0aa99/diploma" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Косметический ремонт квартир</h3>
+                    <p class="service-card__desc">
+                      Быстрое обновление интерьера без масштабных строительных работ.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://i.pinimg.com/originals/28/ff/25/28ff256a89a67ab2581d89665b60e4e7.jpg?nii=t" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Ремонт комнаты</h3>
+                    <p class="service-card__desc">
+                      Комплексный ремонт одной комнаты с индивидуальным подходом.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://i.pinimg.com/originals/bf/9f/3d/bf9f3dc4c135efa17e61cef6a3f623e7.jpg" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Ремонт сан-узла</h3>
+                    <p class="service-card__desc">
+                      Качественный ремонт ванных комнат и санузлов под ключ.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://static.tildacdn.com/tild3031-3832-4661-b765-333530363235/a-highly-detailed--p.jpg" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Электрика под ключ</h3>
+                    <p class="service-card__desc">
+                      Монтаж и замена электропроводки с гарантией безопасности.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://avatars.mds.yandex.net/get-ydo/3925651/2a00000192d4942292c83b302496abf1afe2/diploma" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Сантехника под ключ</h3>
+                    <p class="service-card__desc">
+                      Полный спектр сантехнических работ любой сложности.
+                    </p>
+                  </div>
+                  <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://avatars.mds.yandex.net/get-altay/13474366/2a00000191fc7c6cb94cf424c7492f7f04d6/XXL_height" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Производство мебели</h3>
+                    <p class="service-card__desc">
+                      Индивидуальное изготовление мебели по вашим размерам.
+                    </p>
+                  </div>
+                 <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://avatars.mds.yandex.net/get-altay/1483503/2a00000184aea96883a2bc7508c87ec86dd1/diploma" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Производство пластиковых окон</h3>
+                    <p class="service-card__desc">
+                      Современные ПВХ окна с высокими тепло- и шумоизоляционными свойствами.
+                    </p>
+                  </div>
+                 <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+                <a class="swiper-slide service-card">
+                  <img src="https://vr-msk.ru/upload/iblock/a56/k9msvpd8n60i235hr57vb2g5ps3wqgkw.jpg" alt="">
+                  <div class="service-card__overlay"></div>
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">Ремонт нежилых помещений</h3>
+                    <p class="service-card__desc">
+                      Ремонт офисов, магазинов и коммерческих объектов под ключ.
+                    </p>
+                  </div>
+                <button class="service-card__btn">
+                    <svg
+                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </button>
+                </a>
+
+              </div>
+            </div>
+            <div class="swiper-pagination services__progress"></div>
+          </div>
+        </section>
+        <section class="blogs">
+          <div class="container">
+            <div class="blogs__left">
+              <h2>ПУБЛИКУЕМ ПОЛЕЗНЫЕ СТАТЬИ В РАЗЛИЧНЫХ СМИ</h2>
+              <p>Статьи, интервью и другие материалы, опубликованные о нашей компании в различных СМИ</p>
+               <a href="/" class="button_link w-inline-block">
+                СМОТРЕТЬ ВСЕ
+            <div class="button">
+                <div class="button_icon is-larger">
+                <div class="button_arrow-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                    <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                    <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                    </svg>
+                </div>
+
+                <div class="circle-loader"></div>
+                </div>
+            </div>
+            </a>
+            </div>
+            <div class="blogs__right">
+              <div class="blog__card">
+                <div class="blog__card-left">
+                  <h3>Интерьер с мужским характером: что это такое?</h3>
+                  <p>Минимализм и функциональность — среди главных интерьерных трендов, а еще это признаки так называемого мужского интерьера</p>
+                  <p>24.07.2025</p>
+                   <a href="/" class="button_link w-inline-block">
+                ПОДРОБНЕЕ
+                  <div class="button">
+                      <div class="button_icon is-larger">
+                      <div class="button_arrow-wrapper">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+                      </div>
+
+                      <div class="circle-loader"></div>
+                      </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="blog__card-img">
+                  <img src="/assests/img/blog1.webp" alt="">
+                </div>
+              </div>
+              <div class="blog__card">
+                <div class="blog__card-left">
+                  <h3>Тренды в дизайне интерьера — 2025: большие растения, леопард и Япония</h3>
+                  <p>Рассказываем, какие цвета, отделка и мебель будут наиболее актуальны в будущем году</p>
+                  <p>24.07.2025</p>
+                   <a href="/" class="button_link w-inline-block">
+                ПОДРОБНЕЕ
+                  <div class="button">
+                      <div class="button_icon is-larger">
+                      <div class="button_arrow-wrapper">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+                      </div>
+
+                      <div class="circle-loader"></div>
+                      </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="blog__card-img">
+                  <img src="/assests/img/blog2.jpg" alt="">
+                </div>
+              </div>
+              <div class="blog__card">
+                <div class="blog__card-left">
+                  <h3>Антитренды в дизайне интерьера — 2025: букле, монохром и черная фурнитура</h3>
+                  <p>Рассказываем, от какой отделки, мебели и предметов декора стоит отказаться, чтобы интерьер выглядел актуальным</p>
+                  <p>24.07.2025</p>
+                   <a href="/" class="button_link w-inline-block">
+                ПОДРОБНЕЕ
+                  <div class="button">
+                      <div class="button_icon is-larger">
+                      <div class="button_arrow-wrapper">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                          </svg>
+                      </div>
+
+                      <div class="circle-loader"></div>
+                      </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="blog__card-img">
+                  <img src="/assests/img/blog3.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="faq">
+          <div class="container faq__grid">
+
+            <div class="faq__left">
+              <h2>ЧАСТО ЗАДАВАЕМЫЕ<br>ВОПРОСЫ</h2>
+              <p>
+                Мы используем современные технологии, тщательно прорабатываем
+                каждую деталь и предлагаем решения
+              </p>
+            </div>
+
+            <div class="faq__right">
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  СКОЛЬКО ВРЕМЕНИ ЗАНИМАЕТ РЕМОНТ КВАРТИРЫ?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Сроки зависят от площади, сложности проекта и выбранных материалов.
+                  В среднем ремонт занимает от 2 до 6 месяцев.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  МОЖНО ЛИ ЗАКАЗАТЬ ОТДЕЛЬНЫЕ УСЛУГИ?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Да, вы можете заказать отдельные этапы работ — дизайн-проект,
+                  авторский надзор, комплектацию или ремонтные работы.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  ЗАЧЕМ МНЕ НУЖЕН КОМПЛЕКТАТОР, И КАКИЕ ПРЕИМУЩЕСТВА Я ОТ ЭТОГО ПОЛУЧУ?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Комплектатор экономит ваше время и бюджет, подбирая оптимальные
+                  материалы, мебель и декор в рамках проекта.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  СКОЛЬКО СТОИТ РАЗРАБОТКА ДИЗАЙН-ПРОЕКТА И УСЛУГА КОМПЛЕКТАЦИИ?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Стоимость рассчитывается индивидуально и зависит от площади объекта
+                  и объема услуг.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  ЧТО ТАКОЕ АВТОРСКИЙ НАДЗОР?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Авторский надзор — это контроль реализации проекта дизайнером
+                  на всех этапах ремонта.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question">
+                  ПОЧЕМУ АВТОРСКИЙ НАДЗОР ВАЖЕН ДАЖЕ ПРИ РАБОТЕ «ПОД КЛЮЧ»?
+                  <span class="faq-icon">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+                            </svg>
+                  </span>
+                </button>
+                <div class="faq-answer">
+                  Он гарантирует соответствие результата дизайн-проекту
+                  и предотвращает ошибки при реализации.
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <section class="cta-footer">
+          <div class="container">
+            <div class="cta-footer__box">
+
+              <div class="cta-footer__left">
+                <h2>
+                  ЗАПИШИТЕСЬ НА<br>
+                  ЭКСКУРСИЮ ПО<br>
+                  НАШИМ ОБЪЕКТАМ
+                </h2>
+
+                <p>
+                  Приглашаем вас лично посетить наши объекты и увидеть весь процесс
+                  реализации на разных этапах своими глазами.
+                </p>
+
+                <p>
+                  Оцените уровень отделки, вдохновитесь атмосферой и задайте все
+                  интересующие вас вопросы.
+                </p>
+
+                <div class="cta-footer__socials">
+                  <a href="#" aria-label="telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+                  <a href="#" aria-label="whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 682 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path fill-rule="evenodd" d="M544.387 93.008C484.512 33.063 404.883.035 320.05 0 145.246 0 2.98 142.262 2.91 317.113c-.024 55.895 14.577 110.457 42.331 158.551L.25 640l168.121-44.102c46.324 25.27 98.477 38.586 151.55 38.602h.134c174.785 0 317.066-142.273 317.132-317.133.036-84.742-32.921-164.418-92.8-224.36zM320.05 580.94h-.11c-47.296-.02-93.683-12.73-134.16-36.742l-9.62-5.715-99.766 26.172 26.628-97.27-6.27-9.972c-26.386-41.969-40.32-90.476-40.296-140.281.055-145.332 118.305-263.57 263.7-263.57 70.406.023 136.59 27.476 186.355 77.3s77.156 116.051 77.133 186.485C583.582 462.69 465.34 580.94 320.05 580.94zm144.586-197.418c-7.922-3.968-46.883-23.132-54.149-25.78-7.258-2.645-12.547-3.962-17.824 3.968-5.285 7.93-20.469 25.781-25.094 31.066-4.625 5.29-9.242 5.953-17.168 1.985-7.925-3.965-33.457-12.336-63.726-39.332-23.555-21.012-39.457-46.961-44.082-54.89-4.617-7.938-.04-11.813 3.476-16.173 8.578-10.652 17.168-21.82 19.809-27.105 2.644-5.29 1.32-9.918-.664-13.883-1.977-3.965-17.824-42.969-24.426-58.84-6.437-15.445-12.965-13.36-17.832-13.601-4.617-.231-9.902-.278-15.187-.278-5.282 0-13.868 1.98-21.133 9.918-7.262 7.934-27.73 27.102-27.73 66.106s28.394 76.683 32.355 81.972c3.96 5.29 55.879 85.328 135.367 119.649 18.906 8.172 33.664 13.043 45.176 16.695 18.984 6.031 36.254 5.18 49.91 3.14 15.226-2.277 46.879-19.171 53.488-37.68 6.602-18.51 6.602-34.374 4.617-37.683-1.976-3.304-7.261-5.285-15.183-9.254zm0 0" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </a>
+                  <a href="#" aria-label="phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 482.6 482.6" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+                  <a href="#" aria-label="more">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M467 76H45C20.137 76 0 96.262 0 121v270c0 24.885 20.285 45 45 45h422c24.655 0 45-20.03 45-45V121c0-24.694-20.057-45-45-45zm-6.302 30L287.82 277.967c-8.5 8.5-19.8 13.18-31.82 13.18s-23.32-4.681-31.848-13.208L51.302 106h409.396zM30 384.894V127.125L159.638 256.08 30 384.894zM51.321 406l129.587-128.763 22.059 21.943c14.166 14.166 33 21.967 53.033 21.967s38.867-7.801 53.005-21.939l22.087-21.971L460.679 406H51.321zM482 384.894 352.362 256.08 482 127.125v257.769z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="cta-footer__right">
+          <form class="cta-form">
+
+            <h3>
+              Заполните форму и мы свяжемся с вами,<br>
+              чтобы обсудить все, что вас интересует
+            </h3>
+
+            <input type="text" placeholder="Ваше имя">
+
+            <input type="tel" placeholder="Ваш номер">
+
+            <input type="text" id="datePicker" placeholder="День для связи">
+
+            <textarea placeholder="Комментарий"></textarea>
+
+            <label class="cta-form__agree">
+              <input type="checkbox">
+              <span>Согласен с <a href="#">Политикой конфиденциальности</a></span>
+            </label>
+
+            <button type="submit" class="button_link w-inline-block">
+                        ОТПРАВИТЬ
+                          <div class="button">
+                              <div class="button_icon is-larger">
+                              <div class="button_arrow-wrapper">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
+                                  <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                                  <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                                  </svg>
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
+                                  <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
+                                  <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
+                                  </svg>
+                              </div>
+
+                              <div class="circle-loader"></div>
+                              </div>
+                          </div>
+                          </button>
+
+
+          </form>
         </div>
-      </div>
-
-      <div class="about__card">
-        <div class="about__value">250<span>+</span></div>
-        <div class="about__title">проектов</div>
-        <div class="about__desc">
-          Квартиры, пентхаусы и таунхаусы в Москве и области. Наш опыт подтверждён реальными отзывами клиентов.
-        </div>
-      </div>
-
-      <div class="about__card">
-        <div class="about__value">с 2015</div>
-        <div class="about__desc">
-          Создаём эксклюзивные интерьеры и сопровождаем проект на всех этапах — от замысла до финального клининга.
-        </div>
-      </div>
-
-      <div class="about__card">
-        <div class="about__title">Узнай больше о нашей команде</div>
-        <div class="about__desc">
-         Мы объединяем профессионализм, ответственность и системный подход, чтобы каждый проект соответствовал высоким стандартам качества.
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <a href="/about.html" class="button_link w-inline-block">
-  <div class="button">
-    <div class="button_icon is-larger">
-      <div class="button_arrow-wrapper">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-secondary">
-          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
-          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
-        </svg>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" class="button_arrow is-primary">
-          <rect x="1.11868" y="4.68601" width="0.315476" height="7.41452" transform="rotate(-90 1.11868 4.68601)" stroke="currentColor" stroke-width="0.315476"></rect>
-          <path d="M5.52734 8L8.99758 4.52976L5.52734 1.05952" stroke="currentColor" stroke-width="1"></path>
-        </svg>
-      </div>
-
-      <div class="circle-loader"></div>
-    </div>
-  </div>
-</a>
-  </div>
-  
-</section>
 
 
-
-
+            </div>
+          </div>
+        </section>
     </main>
+    <footer class="site-footer">
+  <div class="container footer__grid">
+
+    <div class="footer__col footer__brand">
+      <div class="footer__logo">
+        <img src="/assests/img/logoremontremovebg.png" alt="Enterio">
+      </div>
+
+      <p class="footer__company">
+        ООО «Lorem», г. Москва, ИНН 9703108396
+      </p>
+
+      <p class="footer__text">
+        Все материалы сайта защищены законом. Копирование и использование
+        без письменного разрешения запрещены (ст. 1250–1302 ГК РФ, ст. 146 УК РФ).
+      </p>
+
+      <p class="footer__text">
+        Выписка из реестра членов СРО<br>
+        Регистрационный номер: СРО-9703108396-20251208-1053
+      </p>
+
+      <div class="footer__socials">
+        <a href="#" aria-label="telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+                  <a href="#" aria-label="whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 682 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path fill-rule="evenodd" d="M544.387 93.008C484.512 33.063 404.883.035 320.05 0 145.246 0 2.98 142.262 2.91 317.113c-.024 55.895 14.577 110.457 42.331 158.551L.25 640l168.121-44.102c46.324 25.27 98.477 38.586 151.55 38.602h.134c174.785 0 317.066-142.273 317.132-317.133.036-84.742-32.921-164.418-92.8-224.36zM320.05 580.94h-.11c-47.296-.02-93.683-12.73-134.16-36.742l-9.62-5.715-99.766 26.172 26.628-97.27-6.27-9.972c-26.386-41.969-40.32-90.476-40.296-140.281.055-145.332 118.305-263.57 263.7-263.57 70.406.023 136.59 27.476 186.355 77.3s77.156 116.051 77.133 186.485C583.582 462.69 465.34 580.94 320.05 580.94zm144.586-197.418c-7.922-3.968-46.883-23.132-54.149-25.78-7.258-2.645-12.547-3.962-17.824 3.968-5.285 7.93-20.469 25.781-25.094 31.066-4.625 5.29-9.242 5.953-17.168 1.985-7.925-3.965-33.457-12.336-63.726-39.332-23.555-21.012-39.457-46.961-44.082-54.89-4.617-7.938-.04-11.813 3.476-16.173 8.578-10.652 17.168-21.82 19.809-27.105 2.644-5.29 1.32-9.918-.664-13.883-1.977-3.965-17.824-42.969-24.426-58.84-6.437-15.445-12.965-13.36-17.832-13.601-4.617-.231-9.902-.278-15.187-.278-5.282 0-13.868 1.98-21.133 9.918-7.262 7.934-27.73 27.102-27.73 66.106s28.394 76.683 32.355 81.972c3.96 5.29 55.879 85.328 135.367 119.649 18.906 8.172 33.664 13.043 45.176 16.695 18.984 6.031 36.254 5.18 49.91 3.14 15.226-2.277 46.879-19.171 53.488-37.68 6.602-18.51 6.602-34.374 4.617-37.683-1.976-3.304-7.261-5.285-15.183-9.254zm0 0" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g>
+                    </svg>
+                  </a>
+                  <a href="#" aria-label="phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 482.6 482.6" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+                  <a href="#" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M467 76H45C20.137 76 0 96.262 0 121v270c0 24.885 20.285 45 45 45h422c24.655 0 45-20.03 45-45V121c0-24.694-20.057-45-45-45zm-6.302 30L287.82 277.967c-8.5 8.5-19.8 13.18-31.82 13.18s-23.32-4.681-31.848-13.208L51.302 106h409.396zM30 384.894V127.125L159.638 256.08 30 384.894zM51.321 406l129.587-128.763 22.059 21.943c14.166 14.166 33 21.967 53.033 21.967s38.867-7.801 53.005-21.939l22.087-21.971L460.679 406H51.321zM482 384.894 352.362 256.08 482 127.125v257.769z" fill="#fcf5e8" opacity="1" data-original="#000000" class=""></path></g></svg>
+                  </a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <div class="footer__title">НАВИГАЦИЯ</div>
+      <ul class="footer__nav">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Статьи</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Часто задаваемые вопросы</a></li>
+        <li><a href="#">Примеры работ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <div class="footer__title">ОФИС</div>
+      <p class="footer__text">
+        Москва, Шелепихинская<br>
+        набережная, 34к2зд3
+      </p>
+
+      <div class="footer__title footer__mt">ТЕЛЕФОН</div>
+      <a href="" class="footer__link">
+        +7 (999) 999-99-99
+      </a>
+
+      <div class="footer__title footer__mt">ПОЧТА</div>
+      <a href="" class="footer__link">
+        info@remont.ru
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+     <div class="container">
+      <p>Copyright © <span id="year"></span> </p>
+                <a href="https://jeywastudio.com/">
+                    Разработка сайта и <br>
+                    техническая поддержка — JEYWA STUDIO
+                </a>
+    </div>
+     </div>
+</footer>
+
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="/assests/main.js"></script>
 </body>
 </html>
