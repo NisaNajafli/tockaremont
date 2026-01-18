@@ -60,3 +60,16 @@ flatpickr("#datePicker", {
   locale: "ru"
 });
 document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('.fancybox').forEach(el => {
+  el.addEventListener('click', function(e){
+    e.preventDefault();
+    const src = this.getAttribute('href');
+
+    const overlay = document.createElement('div');
+    overlay.className = 'lightbox-overlay';
+    overlay.innerHTML = `<img src="${src}">`;
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', ()=> overlay.remove());
+  });
+});
