@@ -259,7 +259,7 @@
     <section class="projects gallery" id="gallery">
             <div class="container">
 
-            <div class="owl-carousel gallery-carousel">
+            <div class=" gallery-carousel">
                 <div class="item">
                     <a href="/gallery-imgs.html" >
                         <img src="/assests/img/slider1.jpg" alt="Image 1">
@@ -528,26 +528,6 @@
     <script src="https://kit.fontawesome.com/6e8461733e.js" crossorigin="anonymous"></script>
     <script src="/assests/main.js"></script>
     <script>
-        $('.gallery-carousel').owlCarousel({
-            loop: true,
-            center: true,
-            items: 3,
-            margin: 50,
-            // autoplay: true,
-            // autoplayTimeout: 3000,  
-            // smartSpeed: 250,
-            nav: true,
-            dots: false,
-            navText: [
-                '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M198.6 246.1L382.7 62c5.1-5.1 7.9-11.8 7.9-19s-2.8-14-7.9-19L366.6 7.9c-5.1-5.1-11.9-7.9-19.1-7.9s-13.9 2.8-19 7.9L109.3 227c-5.1 5.1-7.9 11.9-7.9 19.1s2.8 14 7.9 19.1l219 219c5.1 5.1 11.8 7.9 19 7.9s14-2.8 19.1-7.9l16.1-16.1c10.5-10.5 10.5-27.6 0-38.1L198.6 246.1z"/></svg>',
-                '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492 492"><path d="M382.7 226.8L163.7 7.9c-5-5.1-11.8-7.9-19-7.9s-14 2.8-19.1 7.9l-16.1 16.1c-10.5 10.5-10.5 27.6 0 38.1L293.4 245.9 109.3 430c-5.1 5.1-7.9 11.8-7.9 19.1s2.8 14 7.9 19.1l16.1 16.1c5.1 5.1 11.9 7.9 19.1 7.9s14-2.8 19-7.9l219-219c5.1-5.1 7.9-11.9 7.9-19.1s-2.8-14-7.9-19.1z"/></svg>'
-            ],
-            responsive: {
-                0: { items: 1 },
-                768: { items: 1.5 },
-                1200: { items: 3 }
-            }
-        });
         Fancybox.bind("[data-fancybox='gallery']", {
             Thumbs: { autoStart: true }, // enables bottom thumbnails
             Toolbar: {
