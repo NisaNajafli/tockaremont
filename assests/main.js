@@ -101,3 +101,47 @@ closeBtn.addEventListener('click', closeModal);
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.getElementById("open_menu");
+  const closeBtn = document.getElementById("close_menu");
+  const menu = document.querySelector(".mobile__menu");
+  const overlay = document.getElementById("menu_overlay");
+  const menuLinks = document.querySelectorAll(".mobile__menu a");
+
+  function openMenu() {
+    menu.classList.add("is-open");
+    overlay.classList.add("is-active");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    menu.classList.remove("is-open");
+    overlay.classList.remove("is-active");
+    document.body.style.overflow = "";
+  }
+
+  openBtn.addEventListener("click", openMenu);
+  closeBtn.addEventListener("click", closeMenu);
+  overlay.addEventListener("click", closeMenu);
+
+ menuLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+
+    if (link.closest('.menu__dropdown')) {
+
+      if (link.classList.contains('menu__toggle') || link.parentElement.classList.contains('menu__dropdown')) {
+        return;
+      }
+    }
+
+    closeMenu();
+  });
+});
+});
+document.querySelectorAll('.mobile__menu .menu__dropdown > .menu__link')
+.forEach(link => {
+  link.addEventListener('click', function(e){
+    e.preventDefault(); 
+    this.parentElement.classList.toggle('open');
+  });
+});
