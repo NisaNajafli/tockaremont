@@ -13,6 +13,37 @@
 </head>
 
 <body>
+  <div class="modal-overlay" data-modal-overlay></div>
+
+<div class="custom-modal" data-modal>
+  <button class="modal-close" data-modal-close>&times;</button>
+
+  <h2 class="modal-title">Оставить заявку</h2>
+  <p class="modal-text">
+    Заполните форму, и наш специалист свяжется с вами в ближайшее время.
+  </p>
+
+  <form class="modal-form">
+    <div class="form-group">
+      <label>Имя</label>
+      <input type="text" placeholder="Ваше имя" required>
+    </div>
+
+    <div class="form-group">
+      <label>Tелефон</label>
+      <input type="tel" placeholder="Ваше телефона" required>
+    </div>
+
+    <div class="form-group">
+      <label>Сообщение</label>
+      <textarea placeholder="Введите сообщение" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="modal-action">
+      <span>Отправить</span>
+    </button>
+  </form>
+</div>
   <header>
     <div class="container">
       <nav>
@@ -227,7 +258,7 @@
           </ul>
         </div>
         <a href="tel:+79013039222" class="phone"> +7 901 303 92 22</a>
-        <a href="" class="button_underline">ОБСУДИТЬ ПРОЕКТ
+        <a data-modal-open class="button_underline">ОБСУДИТЬ ПРОЕКТ
           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="10"
             height="10" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
             class="">
